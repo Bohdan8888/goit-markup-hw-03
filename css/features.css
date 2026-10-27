@@ -12,6 +12,7 @@
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+ 
 }
 
 .feature-text {
@@ -20,10 +21,11 @@
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 8px;
 }
 .features-list {
   display: flex;
-  padding: 120px 0;
+
   justify-content: center;
   align-items: flex-start;
   gap: 24px;

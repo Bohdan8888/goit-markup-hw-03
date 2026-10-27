@@ -14,7 +14,7 @@
 
 .team-list {
   display: flex;
-  width: 1128px;
+ 
   align-items: flex-start;
   gap: 24px;
 }
@@ -22,6 +22,7 @@
 .team-card {
   background-color: var(--color-white);
   text-align: center;
+  border-radius: 0 0 4px 4px;
 }
 
 .team-name {
@@ -40,4 +41,14 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+}
+
+.team-card-content{
+  padding: 32px 16px;
+}
+.team-image{
+  display: block;
+}
+.team-role{
+  margin-top: 8px;
 }

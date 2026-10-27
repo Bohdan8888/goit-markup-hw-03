@@ -8,6 +8,9 @@
 }
 
 .nav-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   color: var(--color-heading);
   font-weight: 500;
   line-height: 1.5;
@@ -21,6 +24,7 @@
 
 .header-address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .contact-link {
@@ -47,5 +51,9 @@
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  
+}
+
+.navigation{
+  margin-left: 76px;
 }

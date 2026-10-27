@@ -28,6 +28,7 @@
   background: var(--IRIS, #4d5ae5);
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   color: #fff;
+  border: none;
 }
 
 .hero-button:hover,
