@@ -13,13 +13,26 @@
 
 .portfolio-list {
   list-style: none;
+  display: flex;
+  width: 1128px;
+
+  gap: 48px 24px;
+  flex-wrap: wrap;
 }
 
 .portfolio-card {
-  background-color: var(--color-white);
+  display: flex;
+  margin-top: 72px;
+  flex-direction: column;
+
+  width: calc((100% - 48px) / 3);
+  gap: 8px;
+  align-self: stretch;
+  border-right: 1px solid var(--CORNFLOWER, #e7e9fc);
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+  border-left: 1px solid var(--CORNFLOWER, #e7e9fc);
+  background: var(--WHITE, #fff);
 }
-
-
 
 .portfolio-item-title {
   color: var(--color-heading);
@@ -35,4 +48,12 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.portfolio-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.portfolio-card-content {
+  padding: 32px 16px;
 }

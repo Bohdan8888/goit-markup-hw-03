@@ -1,6 +1,6 @@
-
 .page-header {
   background-color: var(--color-white);
+  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
 }
 
 .header-logo {
@@ -32,4 +32,20 @@
 .contact-link:hover,
 .contact-link:focus {
   color: var(--color-primary-hover);
+}
+
+.navigation-list {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+}
+.contact-list {
+  display: flex;
+  gap: 40px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
