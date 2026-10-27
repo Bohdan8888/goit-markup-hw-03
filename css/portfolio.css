@@ -14,7 +14,6 @@
 .portfolio-list {
   list-style: none;
   display: flex;
-  width: 1128px;
   margin-top: 72px;
   gap: 48px 24px;
   flex-wrap: wrap;
@@ -22,9 +21,7 @@
 
 .portfolio-card {
   display: flex;
-
   flex-direction: column;
-
   width: calc((100% - 48px) / 3);
  
 
