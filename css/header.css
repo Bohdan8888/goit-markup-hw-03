@@ -1,0 +1,35 @@
+
+.page-header {
+  background-color: var(--color-white);
+}
+
+.header-logo {
+  color: var(--color-heading);
+}
+
+.nav-link {
+  color: var(--color-heading);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--color-primary-hover);
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.contact-link {
+  color: var(--color-text);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--color-primary-hover);
+}

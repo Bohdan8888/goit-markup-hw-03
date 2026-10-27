@@ -1,0 +1,38 @@
+.portfolio {
+  background-color: var(--color-white);
+}
+
+.portfolio-title {
+  color: var(--color-heading);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.portfolio-list {
+  list-style: none;
+}
+
+.portfolio-card {
+  background-color: var(--color-white);
+}
+
+
+
+.portfolio-item-title {
+  color: var(--color-heading);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.portfolio-item-text {
+  color: var(--color-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
